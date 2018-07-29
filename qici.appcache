@@ -2,11 +2,11 @@ CACHE MANIFEST
 #VERSION 20180729102213
 Assets/meta/globalUrlMap.js
 Assets/css/style.css
-http://engine.zuoyouxi.com/lib/1.1.6/phaser.min.js
-http://engine.zuoyouxi.com/lib/1.1.6/webfontloader.js
-http://engine.zuoyouxi.com/lib/1.1.6/qc-core.js
-http://engine.zuoyouxi.com/lib/1.1.6/qc-loading.js
-http://engine.zuoyouxi.com/lib/qc-webgl.js
+lib/phaser.min.js
+lib/webfontloader.js
+lib/qc-core.js
+lib/qc-loading.js
+lib/qc-webgl.js
 
 js/game-scripts-mini-1.js
 Assets/scene/Dota.bin
