@@ -1,0 +1,92 @@
+{"frames": {
+
+"bg":
+{
+	"frame": {"x":1,"y":1,"w":1200,"h":800},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1200,"h":800},
+	"sourceSize": {"w":1200,"h":800}
+},
+"button":
+{
+	"frame": {"x":1,"y":803,"w":238,"h":188},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":238,"h":188},
+	"sourceSize": {"w":238,"h":188}
+},
+"check":
+{
+	"frame": {"x":409,"y":928,"w":83,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":83,"h":69},
+	"sourceSize": {"w":83,"h":69}
+},
+"collect":
+{
+	"frame": {"x":241,"y":928,"w":166,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":66},
+	"sourceSize": {"w":166,"h":66}
+},
+"info":
+{
+	"frame": {"x":241,"y":803,"w":238,"h":123},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":238,"h":123},
+	"sourceSize": {"w":238,"h":123}
+},
+"lock":
+{
+	"frame": {"x":494,"y":928,"w":53,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":61},
+	"sourceSize": {"w":53,"h":61}
+},
+"reward":
+{
+	"frame": {"x":481,"y":803,"w":238,"h":123},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":238,"h":123},
+	"sourceSize": {"w":238,"h":123}
+},
+"snowman_icon":
+{
+	"frame": {"x":721,"y":803,"w":144,"h":145},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":144,"h":145},
+	"sourceSize": {"w":144,"h":145}
+},
+"tree_icon_disabled":
+{
+	"frame": {"x":867,"y":803,"w":144,"h":145},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":144,"h":145},
+	"sourceSize": {"w":144,"h":145}
+},
+"tree_icon_enabled":
+{
+	"frame": {"x":1013,"y":803,"w":144,"h":145},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":144,"h":145},
+	"sourceSize": {"w":144,"h":145}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "elements.png",
+	"format": "RGBA8888",
+	"size": {"w":1202,"h":998},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e1a6b7d2eaba98052ab8bd99bd5748fa:24e7f68142aeb1be7b65b21516bd79ea:5b2f3c13e8b86e4c74f43dc8b276d9b9$"
+}
+}

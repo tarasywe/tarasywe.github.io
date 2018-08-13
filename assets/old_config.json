@@ -1,0 +1,226 @@
+{
+  "splashscreen": "splashscreen.png",
+  "default_scene": "snowman",
+  "scenes":{
+    "snowman": {
+      "character": {
+        "parts": [
+          { "id": "eyes", "x": 0, "y": 0 },
+          { "id": "hat", "x": 0, "y": 0 },
+          { "id": "nose", "x": 0, "y": 0 },
+          { "id": "scart", "x": 0, "y": 0 }
+        ]
+      },
+      "bg": "bg",
+      "buttons": {
+        "reward": {
+          "id": "reward",
+          "x": 0,
+          "y": 0,
+          "title": "reward",
+          "atlas": "elements"
+        },
+        "collections": [
+          {
+            "id":"snowman",
+            "x": 0,
+            "y": 0,
+            "frame": "snowman_icon",
+            "atlas": "elements"
+          },
+          {
+            "id":"tree",
+            "x": 0,
+            "y": 0,
+            "frame": "tree_icon_enabled",
+            "atlas": "elements",
+            "disabled": "tree_icon_disabled",
+            "blocked": "lock"
+          }
+        ],
+        "collectible": {
+          "id": "collectible",
+          "complete": "check",
+          "bg": "button"
+        },
+        "info": {
+          "id": "info",
+          "x": 0,
+          "y": 0
+        },
+        "collectibles": [
+          {
+            "id":"icon-eyes",
+            "x": 0,
+            "y": 0,
+            "icon": "icon-eyes",
+            "atlas": "snowparts"
+          },
+          {
+            "id":"icon-hat",
+            "x": 0,
+            "y": 0,
+            "icon": "icon-hat",
+            "atlas": "snowparts"
+          },
+          {
+            "id":"icon-nose",
+            "x": 0,
+            "y": 0,
+            "icon": "icon-nose",
+            "atlas": "snowparts"
+          },
+          {
+            "id":"icon-scart",
+            "x": 0,
+            "y": 0,
+            "icon": "icon-scart",
+            "atlas": "snowparts"
+          }
+        ]
+      }
+    },
+    "tree": {},
+    "info": {}
+  },
+  "atlases": {
+    "snowparts": "snowparts",
+    "jackpot": "jackpot",
+    "elements": "elements"
+  },
+  "animations": {
+    "Dead": {
+      "type": "sprite",
+      "id": "Dead",
+      "x": 200,
+      "y": 200,
+      "loop": 1,
+      "awake": true,
+      "speed": 0.2
+    },
+    "Run": {
+      "type": "sprite",
+      "id": "Run",
+      "x": -100,
+      "y": 260,
+      "loop": 0,
+      "awake": true,
+      "speed": 0.3
+    },
+    "Santa": {
+      "type": "sprite",
+      "id": "Santa",
+      "x": 700,
+      "y": 0,
+      "loop": 0,
+      "awake": true,
+      "speed": 0.3,
+      "animations": {
+        "Idle": {
+          "loop": 0,
+          "awake": true,
+          "speed": 0.3
+        },
+        "Walk": {
+          "loop": 0,
+          "awake": false,
+          "speed": 0.3
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "atlas": "jackpot",
+      "tweens": [
+        {
+          "frame": "JackpotFrame_672_181",
+          "value": "scale",
+          "from": 0,
+          "to": 1.4,
+          "duration": 2
+        },
+        {
+          "frame": "Shared_CoinShadow02",
+          "value": "position",
+          "Yfrom": -100,
+          "Yto": 700,
+          "Xfrom": 600,
+          "Xto": 600,
+          "duration": 2
+        }
+      ]
+    }
+  ],
+  "particles": [
+    {
+      "frame": "StarGlow",
+      "config": {
+        "alpha": {
+          "start": 0.8,
+          "end": 0.1
+        },
+        "scale": {
+          "start": 1,
+          "end": 0.3
+        },
+        "color": {
+          "start": "ffffff",
+          "end": "0000ff"
+        },
+        "speed": {
+          "start": 200,
+          "end": 100
+        },
+        "startRotation": {
+          "min": 0,
+          "max": 360
+        },
+        "rotationSpeed": {
+          "min": 0,
+          "max": 0
+        },
+        "lifetime": {
+          "min": 0.5,
+          "max": 2
+        },
+        "frequency": 0.1,
+        "emitterLifetime": -1,
+        "maxParticles": 1000,
+        "pos": {
+          "x": 0,
+          "y": 0
+        },
+        "addAtBack": false,
+        "spawnType": "circle",
+        "spawnCircle": {
+          "x": 0,
+          "y": 0,
+          "r": 10
+        },
+        "emit": false,
+        "autoUpdate": true
+      }
+    }
+  ],
+  "spines": [
+    {
+      "atlas": "spineboy",
+      "scale": 0.5,
+      "x": 200,
+      "y": 300,
+      "default": "walk",
+      "pointerdown": "jump",
+      "loop": true,
+      "actionSound": "sound"
+    }
+  ],
+  "images": {},
+  "sounds": [
+    {
+      "id": "sound",
+      "autoplay": true
+    }
+  ],
+  "fonts": {}
+}
