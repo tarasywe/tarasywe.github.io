@@ -1,0 +1,105 @@
+{
+  "splashscreen": "splashscreen.png",
+  "default_scene": "snowman",
+  "scenes":{
+    "snowman": {
+      "character": {
+        "parts": [
+          { "frame": "eyes", "x": 397, "y": 254, "index": 4  },
+          { "frame": "hat", "x": 150, "y": 60, "index": 2 },
+          { "frame": "nose", "x": 400, "y": 300, "index": 1 },
+          { "frame": "scart", "x": 270, "y": 370, "index": 3 }
+        ]
+      },
+      "bg": "bg",
+      "buttons": {
+        "reward": {
+          "id": "reward",
+          "x": 11,
+          "y": 676,
+          "frame": "reward",
+          "atlas": "elements"
+        },
+        "collection": {
+          "frame": "collect",
+          "y": 110
+        },
+        "collections": [
+          {
+            "id":"snowman",
+            "x": 324,
+            "y": 655,
+            "frame": "snowman_icon",
+            "atlas": "elements"
+          },
+          {
+            "id":"tree",
+            "x": 524,
+            "y": 655,
+            "frame": "tree_icon_enabled",
+            "atlas": "elements",
+            "disabled": "tree_icon_disabled",
+            "blocked": "lock"
+          }
+        ],
+        "collectible": {
+          "id": "collectible",
+          "complete": "check",
+          "frame": "button"
+        },
+        "info": {
+          "frame": "info",
+          "x": 700,
+          "y": 671
+        },
+        "collectibles": [
+          {
+            "x": 940,
+            "y": 618,
+            "icon": "icon-eyes",
+            "index": 4
+          },
+          {
+            "x": 940,
+            "y": 238,
+            "icon": "icon-hat",
+            "index": 2
+          },
+          {
+            "x": 940,
+            "y": 48,
+            "icon": "icon-nose",
+            "index": 1
+          },
+          {
+            "x": 940,
+            "y": 428,
+            "icon": "icon-scart",
+            "index": 3
+          }
+        ]
+      }
+    },
+    "tree": {},
+    "info": {
+      "bg": "night",
+      "home": {
+        "frame": "snowman_icon",
+        "x": 0,
+        "y": 600
+      }
+    }
+  },
+  "atlases": {
+    "snowparts": "snowparts",
+    "elements": "elements",
+    "information": "information"
+  },
+  "animations": {},
+  "effects": [],
+  "particles": [],
+  "spines": [],
+  "images": {},
+  "sounds": [],
+  "fonts": {}
+}

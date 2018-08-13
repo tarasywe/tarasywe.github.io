@@ -1,0 +1,28 @@
+{"frames": {
+
+"night":
+{
+	"frame": {"x":1,"y":1,"w":1200,"h":800},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1200,"h":800},
+	"sourceSize": {"w":1200,"h":800}
+},
+"snowman_icon":
+{
+	"frame": {"x":1203,"y":1,"w":144,"h":145},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":144,"h":145},
+	"sourceSize": {"w":144,"h":145}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "information.png",
+	"format": "RGBA8888",
+	"size": {"w":1348,"h":802},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b6103f4eb329e5fdf7d0356450ed55c6:a3e6b4678073a30c817fb9e2e25443d2:2362d7298354873db50aebcb1318d8d6$"
+}
+}
